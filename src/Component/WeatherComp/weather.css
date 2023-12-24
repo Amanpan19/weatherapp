@@ -1,0 +1,157 @@
+.mainDiv{
+    width: 60%;
+    height: 500px;
+    overflow-y: hidden;
+    background:linear-gradient(180deg,rgb(30, 17, 63),rgb(69, 42, 113));
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+.topInput{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(56, 24, 67);
+}
+
+.time{
+    color: white;
+    font-size: 35px;
+    margin-right: 4%;
+    margin-left:-5%;
+    font-weight: 500;
+}
+
+.period{
+    margin-top: -40px;
+    font-size: 21px;
+   text-align: center;
+}
+
+.searchInput{
+    height: 40px;
+    width: 60%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+.search_icon img{
+    margin-left: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.dataNot{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.weather_img{
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.weather_img img{
+    width: 150px;
+    margin-top: -20px;
+}
+
+.temp{
+    text-align: center;
+    
+    color: white;
+}
+.temp p{
+    margin-top: 9px;
+    font-size: 40px;font-weight: 600;
+}
+
+.extraData{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.element{
+    justify-content: center;
+    margin: auto;
+}
+
+.element p{
+    font-size: 17px;color: white;
+    text-align: center;
+}
+
+.element .humidity{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.element .windSpeed{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.element .visiB{
+    display: flex;
+    gap: 13px;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.visiB img{
+    width: 45px;
+    height: 45px;
+    filter: invert(100%);
+}
+
+@media (max-width:860px) {
+    .time{
+        font-size: 23px;
+    }
+    .time .period{
+        margin-top: -30px;
+        font-size: 18px;
+       text-align: center;
+    }
+    .element p{
+        font-size: 15px;color: white;
+        text-align: center;
+    }
+}
+
+@media (max-width:650px) {
+    .mainDiv{
+        width: 80%;
+        height: 500px;
+    }
+}
+
+@media (max-width:550px) {
+    .mainDiv{
+        width: 90%;
+        height: 500px;
+    }
+    .temp p{
+        margin-top: 18px;
+        font-size: 30px;
+    }
+    .extraData{
+        margin-top: -10px;
+    }
+}
