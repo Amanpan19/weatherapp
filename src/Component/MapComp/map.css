@@ -1,0 +1,38 @@
+.mapImg{
+    margin: auto;
+    margin-top: -10px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.mapImg p {
+    font-size: 30px;font-weight: 600;
+    text-align: center;
+}
+
+.mapImg img{
+    width:90%;
+    height: 200px;
+    border-radius: 8px;
+    filter:contrast(20%) saturate(6000%);
+    margin-left:5%;
+}
+
+@media (max-width:860px) {
+    .mapImg{
+        width: 90%;
+    }
+    
+    .mapImg img{
+        width:70%;
+        margin-left:15%;
+    } 
+}
+@media (max-width:400px) {
+   
+    .mapImg img{
+        width:90%;
+        margin-left:5%;
+    } 
+}
