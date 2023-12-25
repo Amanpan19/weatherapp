@@ -8,6 +8,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
+![image](https://github.com/Amanpan19/weatherapp/assets/120437937/865aa5fd-34b1-43ef-a99e-d1c0b8857c06)
+
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
