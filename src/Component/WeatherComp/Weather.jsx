@@ -18,18 +18,13 @@ const Weather =() => {
       useEffect(()=>{
         const weatherData = async()=>{
         
-          const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=fbfce8ba1bedd6e47a51541f12cee44b`;
+          const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&appid=fbfce8babedd6e47a51541f12cee44b`;
           
           
             let response = await fetch(url);
             let data = await response.json();  
             console.log(data);
             setCity(data);
-           
-            // let responseMap = await fetch(mapUrl);
-            // let dataM = await responseMap.json();  
-            // console.log(dataM);
-            
           
         };
         weatherData();
